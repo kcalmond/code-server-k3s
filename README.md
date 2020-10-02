@@ -18,8 +18,6 @@ Node/OS/Cluster configuration:
 * Create k8s deployment manifests to run arm64 image on k3s/pi cluster
 
 There are some pre-built docker images available (first two choices below). I went with the third option below (build and run) to learn more about the code-server project (this was my first exposure to it).
-
-Pre-built docker images for code-server are available:
 * notes on running codercom/code-server:latest - [CoderCom-run-Image.md](https://github.com/kcalmond/code-server-k3s/blob/main/CoderCom-run-Image.md)
 * notes on running linuxserver/code-server - [LinuxServerIO-run-Image.md](https://github.com/kcalmond/code-server-k3s/blob/main/LinuxServerIO-run-Image.md)
 * notes on **building and running** kcalmond/code-server-arm64:3.5.0 are here - [code-server-arm64-build-run-image.md](https://github.com/kcalmond/code-server-k3s/blob/main/code-server-arm64-build-run-image.md)

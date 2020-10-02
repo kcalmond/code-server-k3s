@@ -25,7 +25,7 @@ Pre-built docker images for code-server are available:
 
 ### Kubernetes manifests
 Four yamls below accomplish the following:
-* create the PV: [coder-pv.yaml]
-* create the PVC
-* create the deployment
-* create the load balancer
+* create the PV: [coder-pv.yaml](https://github.com/kcalmond/code-server-k3s/blob/main/coder-pv.yaml)
+* create the PVC: [coder-pvc.yaml](https://github.com/kcalmond/code-server-k3s/blob/main/coder-pvc.yaml)
+* create the deployment: [coder-deploy.yaml](https://github.com/kcalmond/code-server-k3s/blob/main/coder-deploy.yaml)
+* create the load balancer: [coder-lb.yaml](https://github.com/kcalmond/code-server-k3s/blob/main/coder-lb.yaml)

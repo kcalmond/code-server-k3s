@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: code-server
+  labels:
+    app: code-server
+  namespace: coder
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: code-server
+  template:
+    metadata:
+      labels:
+        app: code-server
+    spec:
+      volumes:
+      - name: coder-pv
+        persistentVolumeClaim:
+          claimName: coder-pv
+      containers:
+      - name: code-server
+        image: kcalmond/code-server-arm64:3.5.0
+        ports:
+          - name: "code-server"
+            containerPort: 8080
+        volumeMounts:
+          - name: coder-pv
+            mountPath: "/home/coder"

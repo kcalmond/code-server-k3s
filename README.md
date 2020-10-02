@@ -98,4 +98,6 @@ NAME          TYPE           CLUSTER-IP     EXTERNAL-IP     PORT(S)        AGE
 code-server   LoadBalancer   10.43.216.33   192.168.200.4   80:30485/TCP   3h18m
 ```
 
+If everything is working then you should be able to load code-server see the default vscode explorer UI:
+
 <img src="https://github.com/kcalmond/code-server-k3s/blob/main/Welcome-coder-Code-OSS.jpg" align="center" width="700">

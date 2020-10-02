@@ -8,9 +8,9 @@ Node/OS/Cluster configuration:
 * Node OS: ubuntu 18.04 LTS (aarch64)
 * NFS: for PV support, used Synology array in same LAN exporting NSF (Synology DSM v6.2.3)
 * etcd: v 3.4.1
-  * stand-alone etcd installed before k3s on cluster nodes to make it k3s ~HA)
+  * stand-alone etcd installed before k3s on cluster nodes to make k3s ~HA)
 * k3s:  GitVersion: v1.18.8+k3s1
-  * disabled default ingress (traefik), to use nginx + metallb (since is a baremetal/on-prem cluster)
+  * disabled default ingress (traefik), to use nginx + metallb (since it is a baremetal/home lab cluster)
 * Build details for the pi cluster are here: [b8kery build notes](https://github.com/kcalmond/b8kery)
 
 ### Goals:

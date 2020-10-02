@@ -10,7 +10,8 @@ Node/OS/Cluster configuration:
 * etcd: v 3.4.1
   * stand-alone etcd installed before k3s on cluster nodes to make it k3s ~HA)
 * k3s:  GitVersion: v1.18.8+k3s1
-* Build details for the pi cluster are here: [b8kerybuildlink]()
+  * disabled default ingress (traefik), to use nginx + metallb (since is a baremetal/on-prem cluster)
+* Build details for the pi cluster are here: [b8kery build notes](https://github.com/kcalmond/b8kery)
 
 ### Goals:
 * Build arm64 code-server image from source

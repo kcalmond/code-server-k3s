@@ -14,6 +14,6 @@ Node/OS/Cluster configuration:
 Build details for the pi cluster are here: [b8kerybuildlink]()
 
 Pre-built docker images for code-server are available:
-* notes on running codercom/code-server:latest - https://github.com/kcalmond/code-server-k3s/blob/main/CoderCom-run-Image.md
+* notes on running codercom/code-server:latest - [CoderCom-run-Image.md](https://github.com/kcalmond/code-server-k3s/blob/main/CoderCom-run-Image.md)
 * notes on running linuxserver/code-server - https://github.com/kcalmond/code-server-k3s/blob/main/LinuxServerIO-run-Image.md
 * notes on **building and running** kcalmond/code-server-arm64:3.5.0 are here - https://github.com/kcalmond/code-server-k3s/blob/main/code-server-arm64-build-run-image.md
